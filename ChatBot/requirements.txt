@@ -9,5 +9,5 @@ faiss-cpu==1.7.4
 huggingface-hub==0.19.4
 transformers>=4.39.0
 torch>=2.5.0
-numpy==1.24.3
+numpy>=1.25
 tiktoken==0.5.2
