@@ -120,7 +120,7 @@ def get_pdf_text(pdf_docs):
 def main():
     try:
         load_dotenv()
-        st.set_page_config(page_title="Chat with multiple PDFs", page_icon=":books:")
+        st.set_page_config(page_title="DocuGenie: Ask Your PDFs Anything ✨")
         st.write(css, unsafe_allow_html=True)
 
         if "conversation" not in st.session_state:
