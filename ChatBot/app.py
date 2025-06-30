@@ -129,7 +129,7 @@ def main():
         if "chat_history" not in st.session_state:
             st.session_state.chat_history = []
 
-        st.header("Chat with multiple PDF :books:")
+        st.header("DocuGenie: Ask Your PDFs Anything ✨")
 
         user_question = st.text_input("Ask a question about your documents")
         if user_question:
